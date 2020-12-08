@@ -55,6 +55,18 @@ a:hover, a:active. a:focus {
     outline: none;
 }
 
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  margin: 0;
+}
+
+.section-title small {
+  display: block;
+}
+
 .entry-form {
   background: #252020;
   border-radius: 100%;
@@ -106,7 +118,7 @@ img .mobile {
 
 #team,
 #testimonial {
-    background: #1b145f;
+    background: #f9f9f9;
 }
 
 #team, 
@@ -322,6 +334,68 @@ img.mobile {
   line-height: 50px;
   text-align: center;
 }
+
+.team-thumb {
+  background: #ffffff;
+  position: relative;
+  overflow: hidden;
+  text-align: left;
+}
+
+.team-info {
+  padding: 20px 30px;
+}
+
+.team-image img {
+  width: 100%;
+}
+
+.team-thumb .social-icon {
+  border-top: 1px solid #f0f0f0;
+  padding: 4px 20px 0 20px;
+}
+
+.team-thumb .social-icon li a {
+  background: #ffffff;
+  color: #252020;
+}
+
+.team-info h3 {
+  margin: 0;
+}
+
+.social-icon {
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+
+.social-icon li {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.social-icon li a {
+  border-radius: 100px;
+  color: #29ca8e;
+  font-size: 15px;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-decoration: none;
+  text-align: center;
+  transition: all 0.4s ease-in-out;
+  position: relative;
+  margin: 5px 5px 5px 0;
+}
+
+.social-icon li a:hover {
+  background: #e04d4d;
+  color: #ffffff;
+}
+
+
 
 
 
