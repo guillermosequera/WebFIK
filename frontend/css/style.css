@@ -7,7 +7,7 @@ body {
     padding-top: 70px;
 }
 
-h1,h3 {
+h1,h2,h3 {
     font-family: 'Muli', sans-serif;
     font-weight: bold;
     line-height: inherit;
@@ -17,6 +17,12 @@ h1 {
     color: #252525;
     font-size: 3em;
     line-height: normal;
+}
+
+h2 {
+  color: #353535;
+  font-size: 2em;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -47,6 +53,46 @@ a, button {
 a:hover, a:active. a:focus {
     color: #29ca8e;
     outline: none;
+}
+
+.entry-form {
+  background: #252020;
+  border-radius: 100%;
+  text-align: center;
+  padding: 6em;
+  width: 450px;
+  height: 450px;
+}
+
+.entry-form h2 {
+  color: #ffffff;
+  margin: 0;
+}
+
+.entry-form .form-control {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  box-shadow: none;
+  height: 45px;
+  margin: 10px 0;
+}
+
+.entry-form .submit-btn {
+  background: #ffffff;
+  border-radius: 50px;
+  border: 0;
+  color: #252020;
+  width: 50%;
+  height: 50px;
+  margin: 30px auto;
+  margin-bottom: 10px;
+}
+
+.entry-form .submit-btn:hover {
+  background: #3f51b5;
+  color: #ffffff;
 }
 
 section {
@@ -94,6 +140,19 @@ img .mobile {
     padding: 12px 0;
     margin-bottom: 0;
     padding: 0;
+}
+
+img.mobile {
+  height: 250%;
+}
+
+@media only screen and (max-width: 1000px) {
+  header img.moble {
+    display: block !important;
+    opacity: 1 !important;
+    position: relative;
+    margin: 0 auto;
+  }
 }
 
 .custom-navbar .navbar-brand {
@@ -237,6 +296,31 @@ img .mobile {
 
 .feature-thumb h3 {
   margin: 10px 0;
+}
+
+#about figure {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 15px;
+}
+
+#about figure span {
+  float: left;
+  margin-left: -15px;
+  padding: 15px 20px;
+  position: relative;
+  top: 20px;
+}
+
+#about figure span i {
+  background: #29ca8e;
+  border-radius: 50px;
+  color: #ffffff;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
 
 
